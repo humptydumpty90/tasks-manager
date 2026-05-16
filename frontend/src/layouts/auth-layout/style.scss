@@ -1,0 +1,28 @@
+.auth-layout {
+  &__header-btn-sign-in {
+    margin-left: auto;
+  }
+
+  &__header-btn-sign-up {
+    margin-left: 12px;
+    border: none;
+    background-color: transparent;
+    transition: none !important;
+    &:hover {
+      background-color: transparent !important;
+      border: none !important;
+      color: var(--ant-btn-text-color) !important;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sign-in-by {
+    margin-bottom: var(--ant-margin-md);
+  }
+}

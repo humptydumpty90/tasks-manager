@@ -1,0 +1,8 @@
+.task-view-page {
+  &__title {}
+
+  &__content {
+    overflow: hidden;
+    padding: var(--ant-padding-xl) !important;
+  }
+}

@@ -1,0 +1,13 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Boards
+    link(rel="stylesheet", href="/styles.css")
+  body
+    .container
+      h1 Boards
+      .boards-grid
+        each board in boards
+          a.board-card(href=`/api/v1/boards/${board.id}`)
+            h2= board.name
+            p= board.description

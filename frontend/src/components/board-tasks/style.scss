@@ -1,0 +1,9 @@
+.board-tasks {
+  &__column-title {
+    padding: var(--ant-padding-md) 0;
+    text-align: center;
+    font-size: var(--ant-size-md);
+    color: var(--ant-color-text-secondary);
+    text-transform: uppercase;
+  }
+}

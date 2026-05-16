@@ -1,0 +1,9 @@
+.dashboard-layout {
+  &__header-btn-create {
+    margin-left: var(--ant-margin-md);
+  }
+
+  &__header-btn-logout {
+    margin-left: auto;
+  }
+}

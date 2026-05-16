@@ -1,0 +1,21 @@
+.task-view {
+  &__content-row {
+    margin-bottom: var(--ant-margin-lg);
+  }
+
+  &__content-row:last-child {
+    margin-bottom: 0;
+  }
+
+  &__content-title:first-child {
+    margin-top: 0;
+  }
+
+  &__content-action {
+    margin-right: var(--ant-margin-sm);
+  }
+
+  &__content-form-select {
+    width: 40% !important;
+  }
+}

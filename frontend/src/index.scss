@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: var(--ant-margin-md) 0;
+  color: var(--ant-color-text-secondary);
+}
+
+h3 {
+  margin: var(--ant-margin-xs) 0;
+}
