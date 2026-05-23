@@ -11,7 +11,7 @@ A full-stack task management application built with React and Node.js.
 - **Authentication** — Registration, login, logout with JWT + session support
 - **Boards** — Create and delete project boards
 - **Tasks** — Create and delete tasks within boards
-- **User Management** — Full account lifecycle (sign up, sign in, delete)
+- **User Management** — Full account lifecycle (sign up, sign in, logout)
 - **Repository Pattern** — Clean architecture with abstracted data layer via Mongoose
 
 ---
