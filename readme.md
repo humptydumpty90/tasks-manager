@@ -6,8 +6,9 @@ A full-stack task management application built with React and Node.js.
 
 ## ⚠️ Important
 
-The backend is hosted on Render and may take up to ~15 seconds to respond on the first request after inactivity due to cold start.
-Subsequent requests will be fast.
+> The first visit to the deployed app may take up to ~15 seconds to load.
+> This is due to Render spinning up the backend after inactivity (cold start).
+> After that, the app will work normally and load significantly faster.
 
 ---
 
