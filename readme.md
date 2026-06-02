@@ -4,6 +4,11 @@ A full-stack task management application built with React and Node.js.
 
 🔗 **[Live Demo](https://tasks-manager-plum.vercel.app/)** · **[GitHub Repository](https://github.com/humptydumpty90/tasks-manager)**
 
+## ⚠️ Important
+
+The backend is hosted on Render and may take up to ~15 seconds to respond on the first request after inactivity due to cold start.
+Subsequent requests will be fast.
+
 ---
 
 ## Features
